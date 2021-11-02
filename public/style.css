@@ -3,3 +3,20 @@
   padding: 0px;
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: 'Graphik';
+  src: url('http://fonts.cdnfonts.com/css/graphik');
+}
+
+body{
+  /* background-color: rgba(24, 24, 24, 1); */
+  font-family: 'Graphik',Arial, Helvetica, sans-serif;
+  margin: auto;
+
+}
+
+img{
+  width: 150px;
+  height: 150px;
+}
