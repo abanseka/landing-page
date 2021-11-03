@@ -13,11 +13,11 @@ const Gallery = () => {
 
 			<div className= "text-content" >
 
-				<h2>Gallery</h2>
+				<h1>Gallery</h1>
 
 				<p>
 					We focus on ergonomics and meeting you 
-					where you work. It's only a keystroke away.
+					where you work<br/> It's only a keystroke away.
 				</p>
 
 			</div>
@@ -39,7 +39,7 @@ const Gallery = () => {
 				
 			</div>
 
-			<button className='btn'>See More</button>
+			<button >See More</button>
 		</section>
 	)
 }

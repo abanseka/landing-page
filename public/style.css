@@ -243,3 +243,31 @@ nav .login-btn{
 .contents .card img{
   margin: 40px 40px 0px 40px;
 }
+
+/*Gallery Section*/
+.gallery h1{
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 52px;
+  line-height: 62px
+}
+
+.gallery-cards {
+  display: flex;
+  flex-direction: column;
+ }
+ 
+.gallery-cards img{
+  border-radius:10px;
+  margin: 10px;
+}
+.gallery button{
+  padding: 20px 40px;
+  margin: 10px 20px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px
+}
