@@ -14,11 +14,11 @@ const Testimonials = () => {
 			<div className="testimonial-cards">
 
 				<div className='testimonial-card-1'>
-					<p className='profile'>
+					<div className='profile'>
 						<img  src = {t1} alt='man' />
 						<p>Claire Bell</p>
 						<p>Designer</p>
-					</p>
+					</div>
 					<p className='testimony'>
 						Slate helps you see how many more days you
 						need to work to reach your financial 
@@ -27,11 +27,11 @@ const Testimonials = () => {
 				</div>
 
 				<div className='testimonial-card-2'>
-					<p className='profile'>
+					<div className='profile'>
 						<img  src = {t2} alt='man' />
 						<p>Francisco Lane</p>
 						<p>Designer</p>
-					</p>
+					</div>
 					<p className='testimony'>
 						Slate helps you see how many more days you
 						need to work to reach your financial 
@@ -40,11 +40,11 @@ const Testimonials = () => {
 				</div>
 
 				<div className='testimonial-card-3'>
-					<p className='profile'>
+					<div className='profile'>
 						<img  src = {t3} alt='man' />
 						<p>Ralph Fisher</p>
 						<p>Designer</p>
-					</p>
+					</div>
 					<p className='testimony'>
 						Slate helps you see how many more days you
 						need to work to reach your financial 
@@ -53,11 +53,11 @@ const Testimonials = () => {
 				</div>
 
 				<div className='testimonial-card-4'>
-					<p className='profile'>
+					<div className='profile'>
 						<img  src = {t4} alt='man' />
 						<p>Jorge Murphy</p>
 						<p>Designer</p>
-					</p>
+					</div>
 					<p className='testimony'>
 						Slate helps you see how many more days you
 						need to work to reach your financial 

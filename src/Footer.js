@@ -40,15 +40,15 @@ const Footer = () => {
 
 
 				<div className='row-content'>
-					<p>
+					<div>
 					<img   src = {marker} alt='place-marker icon' />
 					<p>7480 Mockingbird Hill undefined </p>
-					</p>
+					</div>
 
-					<p>
+					<div>
 					<img   src = {phone} alt='phone icon' />
 					<p> (239) 555-0108 </p>
-					</p>
+					</div>
 					<div className='social-media-icons'>
 					<img   src = {Tw} alt='Twitter icon' />
 					<img   src = {Fb} alt='Facebook icon' />
