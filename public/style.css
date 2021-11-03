@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 /* button default styles*/
 button{
   background-color: rgba(0, 0, 0, 0);
@@ -107,7 +112,6 @@ nav .login-btn{
   margin: 10px 20px;
   border-style: none;
   background-color: #4452FE;
-  ;
 }
 #header-learn-btn{
   padding: 20px 40px;
@@ -178,3 +182,64 @@ nav .login-btn{
   letter-spacing: 0.2px;
   }
 
+/*Content Section*/
+.contents {
+  margin: 100px 0px;
+  padding: 60px 0px;
+  height: auto;
+}
+.contents .text-content h1{
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 52px;
+  line-height: 62px;
+}
+
+.contents .cards{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.contents .card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0px;
+  margin: 0px 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+.contents .card-heading{
+  width: 288px;
+  height: auto;  
+}
+.contents .card h4{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: black;
+}
+.contents .card p{
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5C5C5C;
+  margin: 40px 0px;
+}
+
+.contents button{
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+  padding: 20px 40px;
+  border-style: none;
+  background-color: #4452FE;
+}
+.contents .work-card{
+  display: flex;
+  justify-content: space-between;
+}
+.contents .card img{
+  margin: 40px 40px 0px 40px;
+}
