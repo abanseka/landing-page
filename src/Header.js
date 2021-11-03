@@ -13,38 +13,33 @@ const Header = () => {
 					<img src = {logo} alt='text:figma land' />
 				</div>
 
-				<div className='header-menu'>
-					<p>Home</p>
-					<p>Product</p>
-					<p>About</p>
-					<p>Contact</p>
-				</div>
+				<ul>
+					<li>Home</li>
+					<li>Product</li>
+					<li>About</li>
+					<li>Contact</li>
+				</ul>
 
 				<button className='login-btn'>Login</button>
 			</nav>
 
 			<div className='text-content'>
-				<h1>Work at the speed<br/> of thought</h1>
+				<h1 className='title'>Work at the speed<br/> of thought</h1>
 				<p>
 					 Most calendars are designed for teams. 
 					 Slate is designed for<br/> freelancers who want
 					 a simple way to plan their schedule.
 				</p>
 			</div>
-			<div className='header'>
-				<button id='header-free-btn'>Try For Free</button>
-				<button id='header-learn-btn'>Learn More</button>
+
+			<div className='header-btn'>
+				<button id='free-btn'>Try For Free</button>
+				<button>Learn More</button>
 			</div>
 			<div className='screen'>
-				<div className ='screen1'>
+					<img src={imageplaceholder} alt=''/>		
 					<img src={imageplaceholder} alt=''/>
-				</div>
-				<div className ='screen2'>
 					<img src={imageplaceholder} alt=''/>
-				</div>
-				<div className ='screen3'>
-					<img src={imageplaceholder} alt=''/>
-				</div>
 				
 				{/* <img   src = {screenImage2} alt='chatbot'/>
 				<img   src = {screenImage3} alt='boards'/> */}

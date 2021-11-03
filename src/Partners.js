@@ -13,21 +13,22 @@ const Partners = () => {
 			<div className = 'text-content'>
 				<h1>Partners</h1>
 				<p>
-					We focus on ergonomics and meeting you where you work. 
+					We focus on ergonomics and meeting 
+					you where you work.<br/>
 					It's only a keystroke away.
 				</p>
 			</div>
 
-			<div className='partner-logos'>
-				<img   src = {pl1} alt='Apple'/>
-				<img   src = {pl2} alt='Apiary'/>
-				<img   src = {pl3} alt='Android'/>
-				<img   src = {pl4} alt='Camp'/>
-				<img   src = {pl5} alt='Airbnb'/>
-				<img   src = {pl6} alt='IBM'/>
-
+			<div>
+				<div className='partner-logos'>
+					<img   src = {pl1} alt='Apple'/>
+					<img   src = {pl2} alt='Apiary'/>
+					<img   src = {pl3} alt='Android'/>
+					<img   src = {pl4} alt='Camp'/>
+					<img   src = {pl5} alt='Airbnb'/>
+					<img   src = {pl6} alt='IBM'/>
+				</div>
 			</div>
-
 			<button>All Partners</button>
 		</section>
 	)

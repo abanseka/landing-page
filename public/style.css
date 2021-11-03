@@ -1,56 +1,69 @@
-/*Global sizing*/
 *{
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
 
-img {
+/* img {
   max-width: 100%;
-  height: auto;
-}
+  height: auto; */
 
-/* button default styles*/
-button{
-  background-color: rgba(0, 0, 0, 0);
-  border-style: solid;
-  border-width: 0.5px;
-  border-color: white;
-  color: white;
-  font-family: Graphik;
-}  
 
 body{
   margin: auto;
   background: rgba(24, 24, 24, 1);
-  background: rgba(24, 24, 24, 1);
   font-family: 'Graphik',Arial, Helvetica, sans-serif;
+  font-style: normal;
   color: white;
   text-align: center;  
 }
-/* Navigation Bar*/
-nav{
-  padding: 30px 40px;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  
+
+/*Templates*/
+/* button temp*/
+button{
+  margin: 50px;
+  padding: 10px 30px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  background-color: rgba(0, 0, 0, 0);
+  /*button text*/
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+  letter-spacing: 0.2px;
+  color: inherit;
+}  
+
+/*Heading temp*/
+h1{
+  font-weight: normal;
+  font-size: 52px;
+  line-height: 62px;
+  letter-spacing: 0.2px
 }
 
-nav #logo{
-  width: 186px;
-  height: 58px;
+h3{
+  margin: 10px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.1px;
 }
 
-nav .header-menu {
-  display: inherit;
-  
+/*Paragraph temp*/
+p{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
 }
 
-nav .header-menu p{
-  width: 83px;
-  height: 44px;
+/*Link template*/
+li{
   padding: 10px;
+  margin: 10px;
+  list-style: none;
   font-family: inherit;
   font-style: normal;
   font-weight: 500;
@@ -58,64 +71,51 @@ nav .header-menu p{
   line-height: 24px;
   letter-spacing: 0.2px;
 }
-
-nav .login-btn{
-  padding: 13.5px 46px;
-  font-family: inherit;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 25px;
-  letter-spacing: 0.2px;
-
+ul{
+  display: flex;
 }
 
-/* text contents*/
+/*card template*/
+.card{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0px;
+  margin: 0px 10px;
+  border-radius: 10px;
+}
+
+/*Section heading and paragraph*/
 .text-content{
   display: inline-block;
-  padding: 60px;
-  margin: auto;
+  margin:auto;
 }
 
-.header .text-content h1{
-  font-family: inherit;
-  font-style: normal;
+.title{
   font-weight: 500;
   font-size: 80px;
-  line-height: 88px;
-  margin: 10px 0px;
+  line-height: 88px
 }
 
-.text-content p{
-  font-family: Graphik;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 30px;
-  margin: 17px 0px;
+
+#logo{
+  width: 186px;
+  height: 58px;
 }
 
-/* header buttons*/
-.header-btn{
-  display: block;  
-}
-.header button{
-  font-family: inherit;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 25px;
+
+/* Navigation Bar*/
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;  
 }
 
-#header-free-btn{
-  padding: 20px 40px;
-  margin: 10px 20px;
-  border-style: none;
+/* header button*/
+#free-btn{
+  border-color: #4452FE;
   background-color: #4452FE;
-}
-#header-learn-btn{
-  padding: 20px 40px;
-  margin: 10px 20px;
 }
 
 /*Header image or Screens*/
@@ -126,115 +126,51 @@ nav .login-btn{
 
 
 /*features*/
-.features .text-content h1{
-  font-style: normal;
-  font-weight: normal;
-  font-size: 52px;
-  line-height: 62px;
-}
-
 .features-content-frame{
   display: flex;
   justify-content: center;
 }
-
 .featImg-container{
   position: relative;
 }
-
 .featImg2{
   position: absolute;
   bottom: -60px;
   right: -30px;
 } 
-
 .features .content-row{
   width: fit-content;
 }
-
 .features .content-block{
   display: block;
   padding: 20px;
   margin: 20px;
   text-align: left;
 }
-
 .features .content-heading{
   display: flex;
   justify-content: left;
   align-items: center;
 }
 
-.features .content-block h3{
-  margin: 10px;
-  font-family: Graphik;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 30px;
-}
-.features .content-block p{
-  font-family: Graphik;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.2px;
-  }
+
 
 /*Content Section*/
 .contents {
-  margin: 100px 0px;
-  padding: 60px 0px;
   height: auto;
+  width: auto;
+  padding: 60px 0px;
 }
-.contents .text-content h1{
-  font-family: Graphik;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 52px;
-  line-height: 62px;
-}
-
 .contents .cards{
   display: flex;
   justify-content: center;
-  margin: auto;
 }
 .contents .card{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 40px 0px;
-  margin: 0px 10px;
-  border-radius: 10px;
   background-color: white;
 }
 .contents .card-heading{
   width: 288px;
   height: auto;  
-}
-.contents .card h4{
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 30px;
-  color: black;
-}
-.contents .card p{
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  color: #5C5C5C;
-  margin: 40px 0px;
-}
-
-.contents button{
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 25px;
-  padding: 20px 40px;
-  border-style: none;
-  background-color: #4452FE;
 }
 .contents .work-card{
   display: flex;
@@ -243,16 +179,19 @@ nav .login-btn{
 .contents .card img{
   margin: 40px 40px 0px 40px;
 }
-
-/*Gallery Section*/
-.gallery h1{
-  font-family: Graphik;
-  font-style: normal;
+.contents h3{
+  color: #000;
+}
+.contents .card p{
   font-weight: normal;
-  font-size: 52px;
-  line-height: 62px
+  color:#5C5C5C;
+}
+.contents button{
+  border-color: #4452FE;
+  background-color: #4452FE;
 }
 
+/*Gallery Section*/
 .gallery-cards {
   display: flex;
   flex-direction: column;
@@ -262,12 +201,13 @@ nav .login-btn{
   border-radius:10px;
   margin: 10px;
 }
-.gallery button{
-  padding: 20px 40px;
-  margin: 10px 20px;
-  font-family: inherit;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 25px
-}
+
+/*partners*/
+.partner-logos {
+  display: inline-grid;
+  grid-auto-flow: column;
+  grid-gap: 1px 50px;
+  justify-content: center;
+  align-items: center;
+ }
+ 

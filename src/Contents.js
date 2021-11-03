@@ -17,7 +17,7 @@ const Contents = () => {
 			<div className="cards">
 				<div className='work-card card'>
 					<div className='card-heading'>
-						<h4>Work</h4>
+						<h3>Work</h3>
 						<p>
 							Ever wondered if you're too reliant
 							on a client for work? Slate helps 
@@ -30,7 +30,7 @@ const Contents = () => {
 
 				<div className='design-card card'>
 					<div className='card-heading'>
-						<h4>Design with real data</h4>
+						<h3>Design with real data</h3>
 						<p>
 						Ever wondered if you're too reliant 
 						on a client for work? Slate helps 
