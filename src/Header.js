@@ -31,16 +31,18 @@ const Header = () => {
 					 a simple way to plan their schedule.
 				</p>
 			</div>
-
-			<div className='header-btn'>
-				<button id='free-btn'>Try For Free</button>
-				<button>Learn More</button>
+			<div>
+				<div className='header-btn'>
+					<button id='free-btn'>Try For Free</button>
+					<button>Learn More</button>
+				</div>
 			</div>
 			<div className='screen'>
+			<div className='scrns'>
 					<img src={imageplaceholder} alt=''/>		
 					<img src={imageplaceholder} alt=''/>
 					<img src={imageplaceholder} alt=''/>
-				
+				</div>
 				{/* <img   src = {screenImage2} alt='chatbot'/>
 				<img   src = {screenImage3} alt='boards'/> */}
 				
