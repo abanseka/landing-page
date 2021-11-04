@@ -9,7 +9,7 @@ const Cta = () => {
 
 				<div className='text'>
 					<h1>	
-							OpenType features 
+							OpenType feature<br/>
 							and Variable fonts	
 					</h1>
 					<button>Try For Free</button>

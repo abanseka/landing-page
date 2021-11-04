@@ -10,63 +10,85 @@ const Testimonials = () => {
 			<div className = 'text-content'>
 				<h1>Testimonials</h1>
 			</div>
+			<div>
+				<div className="testimonial-cards">
 
-			<div className="testimonial-cards">
+					<div className='card'>
 
-				<div className='card'>
-					<div className='profile'>
-						<img  src = {t1} alt='man' />
-						<p>Claire Bell</p>
-						<p>Designer</p>
+						<div className='profile'>
+							<img  src = {t1} alt='man' />
+							<div className='details'>
+								<p>Claire Bell</p>
+								<p>Designer</p>
+							</div>
+							
+						</div>
+						<p className='testimony'>
+							Slate helps you see how many more days you
+							need to work to reach your financial 
+							goal for the month and year.Slate helps you see how many more days you
+							need to work to reach your financial 
+							goal for the month and year.
+						</p>
 					</div>
-					<p className='testimony'>
-						Slate helps you see how many more days you
-						need to work to reach your financial 
-						goal for the month and year.
-					</p>
-				</div>
 
-				<div className='testimonial-card-2'>
-					<div className='profile'>
-						<img  src = {t2} alt='man' />
-						<p>Francisco Lane</p>
-						<p>Designer</p>
+					<div className='card'>
+
+						<div className='profile'>
+							<img  src = {t2} alt='man' />
+							<div className='details'>
+								<p>Francisco Lane</p>
+								<p>Designer</p>
+							</div>
+						</div>
+
+						<p className='testimony'>
+							Slate helps you see how many more days you
+							need to work to reach your financial 
+							goal for the month and year.Slate helps you see how many more days you
+							need to work to reach your financial 
+							goal for the month and year.
+						</p>
 					</div>
-					<p className='testimony'>
-						Slate helps you see how many more days you
-						need to work to reach your financial 
-						goal for the month and year.
-					</p>
-				</div>
 
-				<div className='testimonial-card-3'>
-					<div className='profile'>
-						<img  src = {t3} alt='man' />
-						<p>Ralph Fisher</p>
-						<p>Designer</p>
+					<div className='card'>
+
+						<div className='profile'>
+							<img  src = {t3} alt='man' />
+							<div className='details'>
+								<p>Ralph Fisher</p>
+								<p>Designer</p>
+							</div>
+						</div>
+							
+						<p className='testimony'>
+							Slate helps you see how many more days you
+							need to work to reach your financial 
+							goal for the month and year.Slate helps you see how many more days you
+							need to work to reach your financial 
+							goal for the month and year.
+						</p>
 					</div>
-					<p className='testimony'>
-						Slate helps you see how many more days you
-						need to work to reach your financial 
-						goal for the month and year.
-					</p>
-				</div>
 
-				<div className='testimonial-card-4'>
-					<div className='profile'>
-						<img  src = {t4} alt='man' />
-						<p>Jorge Murphy</p>
-						<p>Designer</p>
+					<div className='card'>
+
+						<div className='profile'>
+							<img  src = {t4} alt='man' />
+							<div className='details'>
+								<p>Jorge Murphy</p>
+								<p>Designer</p>
+							</div>
+						</div>
+
+						<p className='testimony'>
+							Slate helps you see how many more days you
+							need to work to reach your financial 
+							goal for the month and year.Slate helps you see how many more days you
+							need to work to reach your financial 
+							goal for the month and year.
+						</p>
 					</div>
-					<p className='testimony'>
-						Slate helps you see how many more days you
-						need to work to reach your financial 
-						goal for the month and year.
-					</p>
-				</div>
-
-
-
+					</div>
 
 			</div>
 		</section>
