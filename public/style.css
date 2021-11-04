@@ -50,6 +50,7 @@ font-weight: 500;
 font-size: 20px;
 line-height: 30px;
 letter-spacing: 0.1px;
+padding: 10px;
 }
 
 /*Paragraph temp*/
@@ -58,6 +59,7 @@ font-weight: 500;
 font-size: 16px;
 line-height: 24px;
 letter-spacing: 0.2px;
+padding: 20px;
 }
 
 /*Link template*/
@@ -87,7 +89,7 @@ margin: 0px 10px;
 border-radius: 10px;
 }
 
-/*Section heading and paragraph*/
+/*text content temp*/
 .text-content{
 display: inline-block;
 margin:auto;
@@ -99,10 +101,15 @@ font-size: 80px;
 line-height: 88px
 }
 
+.content-heading{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
 
 #logo{
-width: 186px;
-height: 58px;
+display: flex;
 }
 
 
@@ -136,23 +143,22 @@ position: relative;
 }
 .featImg2{
 position: absolute;
-bottom: -60px;
-right: -30px;
-} 
+right: 0px;
+bottom: 0px;
+}
 .features .content-row{
 width: fit-content;
+height: fit-content;
 }
 .features .content-block{
 display: block;
-padding: 20px;
 margin: 20px;
 text-align: left;
 }
-.features .content-heading{
-display: flex;
-justify-content: left;
-align-items: center;
+.features .content-block p{
+  padding: 0px;
 }
+
 
 
 
@@ -221,7 +227,7 @@ row-gap: 20px;
 }
 
 .testimonial .card{
-padding: 40px;
+padding: 20px 40px;
 border: 1px solid #DEDEDE;
 }
 
@@ -234,10 +240,14 @@ text-align: left;
 .details{
 margin: 0px 20px;
 }
+.details p{
+  padding: 0px;
+}
 
 .testimony{
 width: 320px;
 text-align: left;
+padding: 20px 20px 0px 20px;
 }
 
 /*Cta*/
@@ -265,3 +275,38 @@ border-color: #4452FE;
 background-color: #4452FE;
 margin: 0px 50px;
 }
+
+/*footer*/
+.footer-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer h3{margin: 20px 0px; padding: 20px 0px;}
+.footer p{padding: 10px}
+.footer-menu{
+  padding: 20px;
+  margin: auto 50px auto auto;
+}
+
+.column-content {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+ }
+.footer .content-block{
+   margin: 10px;
+}
+.social-media-icons {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: auto auto auto;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px 0px;
+ }
+.phone-icon{
+  padding: 0px 5px;
+}
+ 
+ 

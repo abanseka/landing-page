@@ -14,7 +14,7 @@ const Footer = () => {
 
 				<div className='column-content'>
 				<div className='footer-menu'>
-					<h4>Fingertipe</h4>
+					<h3>Fingertipe</h3>
 					<p>Home</p>
 					<p>Product</p>
 					<p>About</p>
@@ -22,7 +22,7 @@ const Footer = () => {
 				</div>
 
 				<div className='footer-menu'>
-					<h4>Resources</h4>
+					<h3>Resources</h3>
 					<p>Home</p>
 					<p>Product</p>
 					<p>About</p>
@@ -30,7 +30,7 @@ const Footer = () => {
 				</div>
 
 				<div className='footer-menu'>
-					<h4>About</h4>
+					<h3>About</h3>
 					<p>Home</p>
 					<p>Product</p>
 					<p>About</p>
@@ -39,20 +39,27 @@ const Footer = () => {
 				</div>
 
 
-				<div className='row-content'>
-					<div>
-					<img   src = {marker} alt='place-marker icon' />
-					<p>7480 Mockingbird Hill undefined </p>
+				<div className='content-row'>
+					<div className='content-block'>
+						<div className='content-heading'>
+							<img   src = {marker} alt='place-marker icon' />
+							<p>480 Mockingbird Hill undefined </p>
+						</div>
 					</div>
 
-					<div>
-					<img   src = {phone} alt='phone icon' />
-					<p> (239) 555-0108 </p>
+					<div className='content-block'>
+						<div className='content-heading'>
+							<img  className='phone-icon' src = {phone} alt='phone icon' />
+							<p>(239) 555-0108 </p>
+						</div>
 					</div>
-					<div className='social-media-icons'>
-					<img   src = {Tw} alt='Twitter icon' />
-					<img   src = {Fb} alt='Facebook icon' />
-					<img   src = {In} alt='LinkedIn icon' />						
+
+					<div className='content-block'>
+						<div className='social-media-icons'>
+							<img   src = {Tw} alt='Twitter icon' />
+							<img   src = {Fb} alt='Facebook icon' />
+							<img   src = {In} alt='LinkedIn icon' />						
+						</div>
 					</div>
 				</div>
 			</div>
