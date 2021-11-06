@@ -1,0 +1,27 @@
+
+/*features*/
+.features-content-frame{
+	display: flex;
+	justify-content: center;
+	}
+	.featImg-container{
+	position: relative;
+	}
+	.featImg2{
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	}
+	.features .content-row{
+	width: fit-content;
+	height: fit-content;
+	padding: 20px;
+	}
+	.features .content-block{
+	display: block;
+	margin: 20px;
+	text-align: left;
+	}
+	.features .content-block p{
+		padding: 0px;
+	}

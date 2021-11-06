@@ -1,20 +1,21 @@
-import marker from './images/marker.png'
-import phone from './images/phone.png'
+import './Footer.css'
+import marker from '../../images/marker.png'
+import phone from '../../images/phone.png'
 
-import Fb from './images/Fb.png'
-import Tw from './images/Tw.png'
-import In from './images/In.png'
+import Fb from '../../images/Fb.png'
+import Tw from '../../images/Tw.png'
+import In from '../../images/In.png'
 
 
 const Footer = () => {
 	return(
-		<section className='footer'>
+		<section className='footer component-container'>
 
 			<div className='footer-content'>
 
 				<div className='column-content'>
 				<div className='footer-menu'>
-					<h3>Fingertipe</h3>
+					<h3 className='section-sub-heading'>Fingertipe</h3>
 					<p>Home</p>
 					<p>Product</p>
 					<p>About</p>
@@ -22,7 +23,7 @@ const Footer = () => {
 				</div>
 
 				<div className='footer-menu'>
-					<h3>Resources</h3>
+					<h3 className='section-sub-heading'>Resources</h3>
 					<p>Home</p>
 					<p>Product</p>
 					<p>About</p>
@@ -30,7 +31,7 @@ const Footer = () => {
 				</div>
 
 				<div className='footer-menu'>
-					<h3>About</h3>
+					<h3 className='section-sub-heading'>About</h3>
 					<p>Home</p>
 					<p>Product</p>
 					<p>About</p>

@@ -1,18 +1,19 @@
-import cta from './images/cta.png'
+import './Cta.css'
+import cta from '../../images/cta.png'
 
 
 const Cta = () => {
 	return(
-		<section className='cta'>
+		<section className='cta component-container'>
 
 			<div className='cta-content'>
 
 				<div className='text'>
-					<h1>	
+					<h1 className='section-heading'>	
 							OpenType feature<br/>
 							and Variable fonts	
 					</h1>
-					<button>Try For Free</button>
+					<button className='btn'>Try For Free</button>
 				</div>
 
 				<div className='media'>
