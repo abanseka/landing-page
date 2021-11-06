@@ -1,15 +1,20 @@
-
 /*footer*/
 .footer-content {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
-.footer h3{margin: 20px 0px; padding: 20px 0px;}
-.footer p{padding: 10px}
-.footer-menu{
+.footer h3 {
+  margin: 10px 0px;
+  padding: 20px 0px;
+}
+.footer p {
+  padding: 10px;
+  margin: 0px;
+}
+.footer-menu {
   padding: 20px;
-  margin: auto 50px auto auto;
+  margin: 10px;
 }
 
 .column-content {
@@ -17,7 +22,10 @@
   justify-content: center;
   text-align: left;
 }
-.footer .content-block{
+.content-row {
+  text-align: left;
+}
+.footer .content-block {
   margin: 10px;
 }
 .social-media-icons {
@@ -28,7 +36,22 @@
   align-items: center;
   padding: 20px 0px;
 }
-.phone-icon{
+.phone-icon {
   padding: 0px 5px;
 }
 
+@media (max-width: 1100px) {
+  .footer-content {
+    display: block;
+  }
+  .column-content {
+    display: flex;
+    justify-content: center;
+  }
+
+  .content-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,20 +1,23 @@
 /* header button*/
+#logo {
+  display: flex;
+  padding: 20px;
+}
 
 .header-btn {
   display: inline-grid;
-  grid-template-columns: repeat(2,auto);
+  grid-template-columns: repeat(2, auto);
   justify-content: center;
   gap: 40px;
- }
+}
 
-.header-btn button{
+.header-btn button {
   margin: 40px 0px;
 }
 .free-btn {
-border-color: #4452FE;
-background-color: #4452FE;
+  border-color: #4452fe;
+  background-color: #4452fe;
 }
-
 
 /*Header image or Screens*/
 .screen {
@@ -23,26 +26,45 @@ background-color: #4452FE;
   z-index: 1;
 }
 .scrns {
-display: inline-grid;
-justify-content: center;
-grid-template-columns: repeat(2, auto);
-gap: 10px;
-transform: rotate(40deg) skew(350deg);
-overflow: hidden;
+  display: inline-grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, auto);
+  transform: rotate(40deg) skew(350deg);
 }
 .dark-fade-gradient {
-width: auto;
-height: 50vh;
-background-color: linear;
-margin-top: -30%;
-z-index: 2;
-position: relative;
-background-image: linear-gradient(#0000 ,black );
+  height: 50vh;
+  margin-top: -60vh;
+  z-index: 2;
+  position: relative;
+  background-image: linear-gradient(#0000, black);
+  width: auto;
 }
 
-.header h1{
+.header h1 {
   padding-bottom: 0px;
 }
-.header{
-margin: 0px auto;
+.header {
+  margin: 0px auto;
+}
+
+@media (max-width: 1100px) {
+  .header-banner {
+    flex-direction: column;
+  }
+
+  .screen img {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 600px) {
+  .screen img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .dark-fade-gradient {
+    margin-top: -55vh;
+  }
 }
