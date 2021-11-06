@@ -1,10 +1,13 @@
 /*Cta*/
-.cta{
+.cta {
   padding: 50px;
   padding: 80px;
+  display: flex;
+  justify-content: center;
 }
 .cta-content {
   display: inline-flex;
+  flex-basis: auto;
   justify-self: center;
   align-items: center;
   width: max-content;
