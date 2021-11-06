@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Header from './Header';
-import Features from './Features';
-import Contents from './Contents';
-import Gallery from './Gallery';
-import Partners from './Partners';
-import Testimonials from './Testimonials';
-import Cta from './Cta';
-import Footer from './Footer';
+import Header from './Components/Header/Header';
+import Features from './Components/Features/Features';
+import Contents from './Components/Contents/Contents';
+import Gallery from './Components/Gallery/Gallery';
+import Partners from './Components/Partners/Partners';
+import Testimonials from './Components/Testimonials/Testimonials';
+import Cta from './Components/Cta/Cta';
+import Footer from './Components/Footer/Footer';
 
 ReactDOM.render(
   <React.StrictMode>

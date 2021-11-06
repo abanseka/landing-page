@@ -1,14 +1,15 @@
-import featureImage1 from './images/feature images/featureImage1.png'
-import featureImage2 from './images/feature images/featureImage2.png'
-import featureicon1 from './images/feature images/featureIcon1.png'
-import featureicon2 from './images/feature images/featureIcon2.png'
-import featureicon3 from './images/feature images/featureIcon3.png'
+import './Features.css'
+import featureImage1 from '../../images/feature/featureImage1.png'
+import featureImage2 from '../../images/feature/featureImage2.png'
+import featureicon1 from '../../images/feature/featureIcon1.png'
+import featureicon2 from '../../images/feature/featureIcon2.png'
+import featureicon3 from '../../images/feature/featureIcon3.png'
 
 const Features = () => {
 	return(
-		<section className='features'>
+		<section className='features component-container'>
 			<div className= "text-content" >
-				<h1>Features</h1>
+				<h1 className='section-heading'>Features</h1>
 				<p>
 					Most calendars are designed for teams. 
 					Slate is designed for<br /> freelancers who want 
@@ -25,7 +26,7 @@ const Features = () => {
 					<div className='content-block'>
 					<div className='content-heading'>
 						<img src = {featureicon1} alt='cutlery icon' />
-						<h3>A single source<br/> of truth</h3>
+						<h3 className='section-sub-heading'>A single source<br/> of truth</h3>
 					</div>
 						<p>
 							When you add work to your<br/>
@@ -37,7 +38,7 @@ const Features = () => {
 					<div className='content-block'>
 						<div className='content-heading'>
 							<img src = {featureicon2} alt='alien icon' />
-							<h3>Intuitive<br/> interface</h3>
+							<h3 className='section-sub-heading'>Intuitive<br/> interface</h3>
 						</div>
 						<p>
 							When you add work to your<br/>
@@ -49,7 +50,7 @@ const Features = () => {
 					<div className='content-block'>
 					<div className='content-heading'>
 						<img src = {featureicon3} alt='infinity icon' />
-						<h3>Or with rules</h3>
+						<h3 className='section-sub-heading'>Or with rules</h3>
 					</div>
 						<p>
 							When you add work to your<br/>

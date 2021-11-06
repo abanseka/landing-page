@@ -1,0 +1,46 @@
+/*Content Section*/
+.contents {
+	height: auto;
+	width: auto;
+	padding: 60px 0px;
+	}
+	.contents .cards{
+	display: flex;
+	justify-content: center;
+	}
+	.contents .card{
+	background-color: white;
+	}
+	.contents .card-heading{
+	width: 288px;
+	height: auto;  
+	}
+	.contents .work-card{
+	display: flex;
+	justify-content: space-between;
+	}
+	.contents .card img{
+	margin: 40px 40px 0px 40px;
+	}
+	.contents h3{
+	color: #000;
+	}
+	.contents .card p{
+	font-weight: normal;
+	color:#5C5C5C;
+	}
+	.contents button{
+	border-color: #4452FE;
+	background-color: #4452FE;
+	}
+	
+	/*Gallery Section*/
+	.gallery-cards {
+	display: flex;
+	flex-direction: column;
+	}
+	
+	.gallery-cards img{
+	border-radius:10px;
+	margin: 10px;
+	}

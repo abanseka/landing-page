@@ -1,17 +1,18 @@
-import pl1 from './images/partner logos/pl1.png'
-import pl2 from './images/partner logos/pl2.png'
-import pl3 from './images/partner logos/pl3.png'
-import pl4 from './images/partner logos/pl4.png'
-import pl5 from './images/partner logos/pl5.png'
-import pl6 from './images/partner logos/pl6.png'
+import './Partners.css'
+import pl1 from '../../images/partner-logos/pl1.png'
+import pl2 from '../../images/partner-logos/pl2.png'
+import pl3 from '../../images/partner-logos/pl3.png'
+import pl4 from '../../images/partner-logos/pl4.png'
+import pl5 from '../../images/partner-logos/pl5.png'
+import pl6 from '../../images/partner-logos/pl6.png'
 
 
 const Partners = () => {
 	return (
-		<section className =" partners">
+		<section className =" partners component-container">
 
 			<div className = 'text-content'>
-				<h1>Partners</h1>
+				<h1 className='section-heading'>Partners</h1>
 				<p>
 					We focus on ergonomics and meeting 
 					you where you work.<br/>
@@ -29,7 +30,7 @@ const Partners = () => {
 					<img   src = {pl6} alt='IBM'/>
 				</div>
 			</div>
-			<button>All Partners</button>
+			<button className='btn'>All Partners</button>
 		</section>
 	)
 }

@@ -1,0 +1,9 @@
+/*partners*/
+.partner-logos {
+	display: inline-grid;
+	grid-auto-flow: column;
+	grid-gap: 1px 50px;
+	justify-content: center;
+	align-items: center;
+	}
+	

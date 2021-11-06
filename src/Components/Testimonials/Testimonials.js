@@ -1,14 +1,15 @@
-import t1 from './images/testimonial images/t1.png'
-import t2 from './images/testimonial images/t2.png'
-import t3 from './images/testimonial images/t3.png'
-import t4 from './images/testimonial images/t4.png'
+import './Testimonials.css'
+import testimonialImage1 from '../../images/testimonial/testimonialImage1.png'
+import testimonialImage2 from '../../images/testimonial/testimonialImage2.png'
+import testimonialImage3 from '../../images/testimonial/testimonialImage3.png'
+import testimonialImage4 from '../../images/testimonial/testimonialImage4.png'
 
 const Testimonials = () => {
 	return(
-		<section className="testimonial">
+		<section className="testimonial component-container">
 
 			<div className = 'text-content'>
-				<h1>Testimonials</h1>
+				<h1 className='section-heading'>Testimonials</h1>
 			</div>
 			<div>
 				<div className="testimonial-cards">
@@ -16,7 +17,7 @@ const Testimonials = () => {
 					<div className='card'>
 
 						<div className='profile'>
-							<img  src = {t1} alt='man' />
+							<img  src = {testimonialImage1} alt='man' />
 							<div className='details'>
 								<p>Claire Bell</p>
 								<p>Designer</p>
@@ -35,7 +36,7 @@ const Testimonials = () => {
 					<div className='card'>
 
 						<div className='profile'>
-							<img  src = {t2} alt='man' />
+							<img  src = {testimonialImage2} alt='man' />
 							<div className='details'>
 								<p>Francisco Lane</p>
 								<p>Designer</p>
@@ -54,7 +55,7 @@ const Testimonials = () => {
 					<div className='card'>
 
 						<div className='profile'>
-							<img  src = {t3} alt='man' />
+							<img  src = {testimonialImage3} alt='man' />
 							<div className='details'>
 								<p>Ralph Fisher</p>
 								<p>Designer</p>
@@ -73,7 +74,7 @@ const Testimonials = () => {
 					<div className='card'>
 
 						<div className='profile'>
-							<img  src = {t4} alt='man' />
+							<img  src = {testimonialImage4} alt='man' />
 							<div className='details'>
 								<p>Jorge Murphy</p>
 								<p>Designer</p>
