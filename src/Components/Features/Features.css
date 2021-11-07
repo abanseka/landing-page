@@ -34,6 +34,17 @@
   max-width: 100%;
 }
 
+@media (max-width: 1360px) {
+  .features-content-frame {
+    display: block;
+  }
+  .features .content-row {
+    display: flex;
+  }
+  .features .content-heading {
+    display: block;
+  }
+}
 @media (max-width: 1100px) {
   .features-content-frame {
     display: block;
@@ -49,5 +60,15 @@
     display: flex;
     flex: 1 1 100%;
     max-width: 100%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .features .content-row {
+    display: block;
+  }
+  .features .content-block {
+    max-width: 100%;
+    text-align: center;
   }
 }
