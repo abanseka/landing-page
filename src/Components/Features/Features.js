@@ -1,9 +1,9 @@
-import "./Features.css";
 import featureImage1 from "../../images/feature/featureImage1.png";
 import featureImage2 from "../../images/feature/featureImage2.png";
 import featureicon1 from "../../images/feature/featureIcon1.png";
 import featureicon2 from "../../images/feature/featureIcon2.png";
 import featureicon3 from "../../images/feature/featureIcon3.png";
+import "./Features.css";
 
 const Features = () => {
   return (
@@ -25,9 +25,11 @@ const Features = () => {
           <div className="content-block">
             <div className="content-heading">
               <img src={featureicon1} alt="cutlery icon" />
-              <h3 className="section-sub-heading">A single source of truth</h3>
+              <h3 className="feature-block-heading section-sub-heading">
+                A single source of truth
+              </h3>
             </div>
-            <p>
+            <p className="feature-block-text">
               When you add work to your Slate calendar we automatically
               calculate useful insights
             </p>
@@ -36,9 +38,11 @@ const Features = () => {
           <div className="content-block">
             <div className="content-heading">
               <img src={featureicon2} alt="alien icon" />
-              <h3 className="section-sub-heading">Intuitive interface</h3>
+              <h3 className="feature-block-heading section-sub-heading">
+                Intuitive interface
+              </h3>
             </div>
-            <p>
+            <p className="feature-block-text">
               When you add work to your Slate calendar we automatically
               calculate useful insights
             </p>
@@ -47,9 +51,11 @@ const Features = () => {
           <div className="content-block">
             <div className="content-heading">
               <img src={featureicon3} alt="infinity icon" />
-              <h3 className="section-sub-heading">Or with rules</h3>
+              <h3 className="feature-block-heading section-sub-heading">
+                Or with rules
+              </h3>
             </div>
-            <p>
+            <p className="feature-block-text">
               When you add work to your Slate calendar we automatically
               calculate useful insights
             </p>

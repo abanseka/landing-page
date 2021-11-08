@@ -21,10 +21,10 @@
   align-self: flex-start;
   text-align: left;
 }
-.details {
+.profile-detail {
   margin: 0px 20px;
 }
-.details p {
+.profile-detail > * {
   padding: 0px;
   max-width: 100%;
 }

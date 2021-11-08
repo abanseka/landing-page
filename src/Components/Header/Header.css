@@ -11,59 +11,61 @@
   gap: 40px;
 }
 
-.header-btn button {
+.header-btn .btn {
   margin: 40px 0px;
 }
-.free-btn {
+.header-free-btn {
   border-color: #4452fe;
   background-color: #4452fe;
 }
 
 /*Header image or Screens*/
 .screen {
-  margin: 100px auto;
+  display: flex;
+  justify-content: center;
   position: relative;
   z-index: 1;
 }
-.scrns {
-  display: inline-grid;
-  gap: 10px;
-  grid-template-columns: repeat(2, auto);
-  transform: rotate(40deg) skew(350deg);
+
+.header-image-column-1 {
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }
+.header-image-column-2 {
+  display: flex;
+  margin-top: -19%;
+}
+
+.header-image {
+  max-width: 50%;
+}
+
 .dark-fade-gradient {
   height: 50vh;
-  margin-top: -60vh;
+  margin-top: -50vh;
   z-index: 2;
   position: relative;
   background-image: linear-gradient(#0000, black);
   width: auto;
 }
 
-.header h1 {
+.header .section-heading {
   padding-bottom: 0px;
 }
 .header {
   margin: 0px auto;
 }
 
+@media only screen and (max-width: 1200px) {
+}
+
 @media (max-width: 1100px) {
   .header-banner {
     flex-direction: column;
   }
-
-  .screen img {
-    width: 300px;
-    height: 300px;
-  }
 }
-
-@media (max-width: 600px) {
-  .screen img {
-    width: 150px;
-    height: 150px;
-  }
-
+@media (max-width: 800px) {
   .dark-fade-gradient {
     margin-top: -55vh;
   }

@@ -7,7 +7,7 @@
   max-width: 60%;
 }
 
-.gallery-cards img {
+.gallery-cards-1 > * {
   border-radius: 10px;
   margin: 10px;
 }

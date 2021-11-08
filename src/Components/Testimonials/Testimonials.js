@@ -1,8 +1,8 @@
-import "./Testimonials.css";
 import testimonialImage1 from "../../images/testimonial/testimonialImage1.png";
 import testimonialImage2 from "../../images/testimonial/testimonialImage2.png";
 import testimonialImage3 from "../../images/testimonial/testimonialImage3.png";
 import testimonialImage4 from "../../images/testimonial/testimonialImage4.png";
+import "./Testimonials.css";
 
 const Testimonials = () => {
   return (
@@ -15,7 +15,7 @@ const Testimonials = () => {
           <div className="card">
             <div className="profile">
               <img src={testimonialImage1} alt="man" />
-              <div className="details">
+              <div className="profile-detail">
                 <p>Claire Bell</p>
                 <p>Designer</p>
               </div>
@@ -31,7 +31,7 @@ const Testimonials = () => {
           <div className="card">
             <div className="profile">
               <img src={testimonialImage2} alt="man" />
-              <div className="details">
+              <div className="profile-detail">
                 <p>Francisco Lane</p>
                 <p>Designer</p>
               </div>
@@ -48,7 +48,7 @@ const Testimonials = () => {
           <div className="card">
             <div className="profile">
               <img src={testimonialImage3} alt="man" />
-              <div className="details">
+              <div className="profile-detail">
                 <p>Ralph Fisher</p>
                 <p>Designer</p>
               </div>
@@ -65,7 +65,7 @@ const Testimonials = () => {
           <div className="card">
             <div className="profile">
               <img src={testimonialImage4} alt="man" />
-              <div className="details">
+              <div className="profile-detail">
                 <p>Jorge Murphy</p>
                 <p>Designer</p>
               </div>

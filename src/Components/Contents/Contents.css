@@ -4,7 +4,7 @@
   width: auto;
   padding: 60px 0px;
 }
-.contents .cards {
+.contents-cards {
   display: flex;
   justify-content: center;
 }
@@ -19,24 +19,24 @@
   display: flex;
   justify-content: space-between;
 }
-.contents .card img {
+.contents-image {
   margin: 40px 40px 0px 40px;
 }
-.contents h3 {
+.contents-heading {
   color: #000;
 }
-.contents .card p {
+.contents-card-text {
   font-weight: normal;
   color: #5c5c5c;
   max-width: 100%;
 }
-.contents button {
+.contents-button {
   border-color: #4452fe;
   background-color: #4452fe;
 }
 
 @media (max-width: 1100px) {
-  .contents .cards {
+  .contents-cards {
     display: block;
   }
 }

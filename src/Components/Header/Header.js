@@ -1,10 +1,9 @@
-import "./Header.css";
 import logo from "../../images/Logo.png";
-// import screenImage1 from './images/header images/screenImage1.png'
-// import screenImage2 from './images/header images/screenImage2.png'
-// import screenImage3 from './images/header images/screenImage3.png'
+import screenImage1 from "../../images/header/screenImage1.png";
+import screenImage2 from "../../images/header/screenImage2.png";
+import screenImage3 from "../../images/header/screenImage3.png";
 
-import imageplaceholder from "../../images/imgPlaceholder.jpg";
+import "./Header.css";
 
 const Header = () => {
   return (
@@ -36,18 +35,20 @@ const Header = () => {
       </div>
       <div>
         <div className="header-btn">
-          <button className="free-btn btn">Try For Free</button>
+          <button className="header-free-btn btn">Try For Free</button>
           <button className="btn">Learn More</button>
         </div>
       </div>
       <div className="screen">
-        <div className="scrns">
-          <img src={imageplaceholder} alt="" />
-          <img src={imageplaceholder} alt="" />
-          <img src={imageplaceholder} alt="" />
+        <div className="header-images">
+          <div className="header-image-column-1">
+            <img className="header-image" src={screenImage1} alt="Dasboard" />
+          </div>
+          <div className="header-image-column-2">
+            <img className="header-image" src={screenImage3} alt="Chat Bot" />
+            <img className="header-image" src={screenImage2} alt="Board" />
+          </div>
         </div>
-        {/* <img   src = {screenImage2} alt='chatbot'/>
-				<img   src = {screenImage3} alt='boards'/> */}
       </div>
       <div className="dark-fade-gradient"></div>
     </section>

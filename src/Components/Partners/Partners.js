@@ -1,10 +1,10 @@
-import "./Partners.css";
 import pl1 from "../../images/partner-logos/pl1.png";
 import pl2 from "../../images/partner-logos/pl2.png";
 import pl3 from "../../images/partner-logos/pl3.png";
 import pl4 from "../../images/partner-logos/pl4.png";
 import pl5 from "../../images/partner-logos/pl5.png";
 import pl6 from "../../images/partner-logos/pl6.png";
+import "./Partners.css";
 
 const Partners = () => {
   return (

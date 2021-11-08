@@ -1,6 +1,6 @@
-import "./Contents.css";
 import contentImage1 from "../../images/content/contentImage1.png";
 import contentImage2 from "../../images/content/contentImage2.png";
+import "./Contents.css";
 
 const Contents = () => {
   return (
@@ -12,29 +12,40 @@ const Contents = () => {
           keystroke away.
         </p>
       </div>
-      <div className="cards">
+      <div className="contents-cards">
         <div className="work-card card">
           <div className="card-heading">
-            <h3 className="section-sub-heading">Work</h3>
-            <p>
+            <h3 className="contents-heading section-sub-heading">Work</h3>
+            <p className="contents-card-text">
               Ever wondered if you're too reliant on a client for work? Slate
               helps you identify .
             </p>
           </div>
-          <button className="btn">Sign Up</button>
-          <img src={contentImage1} alt="Screen Mask" />
+          <button className="contents-button btn">Sign Up</button>
+          <img
+            className="contents-image"
+            src={contentImage1}
+            alt="Screen Mask"
+          />
         </div>
         <br />
         <div className="design-card card">
           <div className="card-heading">
-            <h3 className="section-sub-heading">Design with real data</h3>
-            <p>
+            <h3 className="contents-heading section-sub-heading">
+              Design with real data
+            </h3>
+            <p className="contents-card-text">
               Ever wondered if you're too reliant on a client for work? Slate
               helps you identify .
             </p>
           </div>
-          <button className="btn">Try For Free</button>
-          <img src={contentImage2} alt="Boards Notifications" />
+          <button className="contents-button btn">Try For Free</button>
+
+          <img
+            className="contents-image"
+            src={contentImage2}
+            alt="Boards Notifications"
+          />
         </div>
       </div>
     </section>

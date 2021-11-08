@@ -25,10 +25,10 @@
   max-width: 50%;
 }
 
-.features .content-block h3 {
+.feature-block-heading {
   max-width: 100%;
 }
-.features .content-block p {
+.feature-block-text {
   padding: 0px;
   margin: 0px;
   max-width: 100%;
