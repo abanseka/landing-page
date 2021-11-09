@@ -1,0 +1,13 @@
+/*Gallery Section*/
+.gallery-cards {
+  display: flex;
+  justify-content: center;
+}
+.gallery-cards-1 {
+  max-width: 60%;
+}
+
+.gallery-cards-1 > * {
+  border-radius: 10px;
+  margin: 10px;
+}
