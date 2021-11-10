@@ -57,6 +57,16 @@
   margin: 0px auto;
 }
 
+@media only screen and (max-width: 768px) {
+  .header-menu,
+  .login-btn {
+    display: none;
+  }
+  .header-banner {
+    justify-content: flex-start;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .dark-fade-gradient {
     margin-top: -50vh;

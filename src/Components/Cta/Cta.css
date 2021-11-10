@@ -38,6 +38,24 @@
   margin: 0px 50px;
 }
 
+@media (max-width: 768px) {
+  .call-to-action-button {
+    margin: auto;
+  }
+  .call-to-action-heading {
+    padding: 5px;
+    line-height: inherit;
+  }
+  .call-to-action-content {
+    display: block;
+  }
+  .call-to-action-content {
+    display: block;
+  }
+  .call-to-action-image {
+    border-radius: 20px;
+  }
+}
 @media (max-width: 600px) {
   .call-to-action-button {
     margin: auto;
@@ -47,7 +65,7 @@
   }
 }
 
-@media (max-width: 1280px) {
+/* @media (max-width: 1280px) {
   .call-to-action-image {
     border-radius: 20px;
   }
@@ -60,4 +78,4 @@
   .call-to-action-image {
     border-radius: 20px;
   }
-}
+} */

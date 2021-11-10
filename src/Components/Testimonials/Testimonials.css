@@ -43,6 +43,14 @@
     margin: 10px 0px;
   }
 } */
+
+@media only screen and (max-width: 768px) {
+  .testimonial-cards {
+    display: inline-block;
+    max-width: 100%;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .testimonial-cards {
     display: inline-block;
