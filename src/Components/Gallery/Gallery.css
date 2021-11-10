@@ -11,3 +11,11 @@
   border-radius: 10px;
   margin: 10px;
 }
+@media only screen and (max-width: 600px) {
+  .gallery-cards-1 {
+    max-width: 100%;
+  }
+  .gallery-cards-1 > * {
+    max-width: 30%;
+  }
+}

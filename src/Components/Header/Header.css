@@ -57,9 +57,19 @@
   margin: 0px auto;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 600px) {
+  .dark-fade-gradient {
+    margin-top: -50vh;
+  }
+  .header-menu,
+  .login-btn {
+    display: none;
+  }
+  .header-banner {
+    justify-content: flex-start;
+  }
 }
-
+/* 
 @media (max-width: 1100px) {
   .header-banner {
     flex-direction: column;
@@ -67,6 +77,6 @@
 }
 @media (max-width: 800px) {
   .dark-fade-gradient {
-    margin-top: -55vh;
+    margin-top: -50vh;
   }
-}
+} */

@@ -7,3 +7,9 @@
   align-items: center;
   max-width: 60%;
 }
+
+@media (max-width: 600px) {
+  .partner-logos {
+    max-width: 80%;
+  }
+}
