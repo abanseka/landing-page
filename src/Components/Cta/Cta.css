@@ -20,10 +20,12 @@
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
-  padding: 50px;
+  padding: 3%;
 }
-.call-to-aciton-heading {
-  max-width: 100%;
+.call-to-action-heading {
+  max-width: 60%;
+  text-align: center;
+  margin: auto;
 }
 .media {
   margin: 0px 0px -40px 0px;
@@ -35,7 +37,7 @@
 .call-to-action-button {
   border-color: #4452fe;
   background-color: #4452fe;
-  margin: 0px 50px;
+  margin: auto;
 }
 
 @media (max-width: 768px) {
@@ -65,7 +67,7 @@
   }
 }
 
-/* @media (max-width: 1280px) {
+@media (max-width: 1280px) {
   .call-to-action-image {
     border-radius: 20px;
   }
@@ -78,4 +80,4 @@
   .call-to-action-image {
     border-radius: 20px;
   }
-} */
+}
