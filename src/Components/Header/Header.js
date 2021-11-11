@@ -6,6 +6,8 @@ import screenImage3 from "../../images/header/screenImage3.png";
 import "./Header.css";
 
 const Header = () => {
+  const toggleHamburgerMenu = document.querySelector(".header-menu");
+
   return (
     <section className="header component-container">
       <nav className="header-banner">
@@ -19,8 +21,17 @@ const Header = () => {
           <li>About</li>
           <li>Contact</li>
         </ul>
-
         <button className="login-btn btn">Login</button>
+        <div
+          onClick={() => {
+            toggleHamburgerMenu.classList.toggle("active");
+          }}
+          className="hamburger-toggle-button"
+        >
+          <span className="bar"></span>
+          <span className="bar"></span>
+          <span className="bar"></span>
+        </div>
       </nav>
 
       <div className="text-content">
