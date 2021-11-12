@@ -24,6 +24,7 @@ const Header = () => {
         <button className="login-btn btn">Login</button>
         <div
           onClick={() => {
+            console.log("clicked");
             toggleHamburgerMenu.classList.toggle("active");
           }}
           className="hamburger-toggle-button"
