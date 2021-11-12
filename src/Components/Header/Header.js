@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import logo from "../../images/Logo.png";
 import screenImage1 from "../../images/header/screenImage1.png";
 import screenImage2 from "../../images/header/screenImage2.png";
@@ -6,7 +7,8 @@ import screenImage3 from "../../images/header/screenImage3.png";
 import "./Header.css";
 
 const Header = () => {
-  const toggleHamburgerMenu = document.querySelector(".header-menu");
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  // usestate and useEffects
 
   return (
     <section className="header component-container">
@@ -15,17 +17,17 @@ const Header = () => {
           <img src={logo} alt="text:figma land" />
         </div>
 
-        <ul className="header-menu">
+        <ul className={`header-menu ${isMenuOpen ? "open" : ""}`}>
           <li>Home</li>
           <li>Product</li>
           <li>About</li>
           <li>Contact</li>
+          <button className="mobile-login-btn btn">Login</button>
         </ul>
         <button className="login-btn btn">Login</button>
         <div
           onClick={() => {
-            console.log("clicked");
-            toggleHamburgerMenu.classList.toggle("active");
+            setIsMenuOpen(!isMenuOpen);
           }}
           className="hamburger-toggle-button"
         >

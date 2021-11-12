@@ -3,6 +3,9 @@
   display: flex;
   padding: 20px;
 }
+.mobile-login-btn {
+  display: none;
+}
 
 .header-btn {
   display: inline-grid;
@@ -100,24 +103,20 @@
     height: 30vh;
     justify-content: center;
   }
-  .login-btn {
-    position: sticky;
-    display: block;
-    z-index: 3;
-    margin: auto;
-  }
+
   .header-banner,
   .header-menu {
-    background-color: #181818;
+    background-color: #4452fe;
   }
   .header-menu li:hover {
-    background-color: #4452fe;
+    background-color: #4992ce;
     cursor: pointer;
   }
-  .login-btn {
+  .mobile-login-btn {
+    display: block;
     margin: auto;
   }
-  .header-menu.active {
+  .header-menu.open {
     display: flex;
   }
 }
@@ -127,14 +126,3 @@
     margin-top: -50vh;
   }
 }
-/* 
-@media (max-width: 1100px) {
-  .header-banner {
-    flex-direction: column;
-  }
-}
-@media (max-width: 800px) {
-  .dark-fade-gradient {
-    margin-top: -50vh;
-  }
-} */
