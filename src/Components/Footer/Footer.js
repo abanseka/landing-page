@@ -15,28 +15,28 @@ const Footer = () => {
             <h3 className="footer-link-heading section-sub-heading">
               Fingertipe
             </h3>
-            <p className="footer-link-text">Home</p>
-            <p className="footer-link-text">Product</p>
-            <p className="footer-link-text">About</p>
-            <p className="footer-link-text">Contact</p>
+            <p className="text-description footer-link-text">Home</p>
+            <p className="text-description footer-link-text">Product</p>
+            <p className="text-description footer-link-text">About</p>
+            <p className="text-description footer-link-text">Contact</p>
           </div>
 
           <div className="footer-menu">
             <h3 className="footer-link-heading section-sub-heading">
               Resources
             </h3>
-            <p className="footer-link-text">Home</p>
-            <p className="footer-link-text">Product</p>
-            <p className="footer-link-text">About</p>
-            <p className="footer-link-text">Contact</p>
+            <p className="text-description footer-link-text">Home</p>
+            <p className="text-description footer-link-text">Product</p>
+            <p className="text-description footer-link-text">About</p>
+            <p className="text-description footer-link-text">Contact</p>
           </div>
 
           <div className="footer-menu">
             <h3 className="footer-link-heading section-sub-heading">About</h3>
-            <p className="footer-link-text">Home</p>
-            <p className="footer-link-text">Product</p>
-            <p className="footer-link-text">About</p>
-            <p className="footer-link-text">Contact</p>
+            <p className="text-description footer-link-text">Home</p>
+            <p className="text-description footer-link-text">Product</p>
+            <p className="text-description footer-link-text">About</p>
+            <p className="text-description footer-link-text">Contact</p>
           </div>
         </div>
 
@@ -44,14 +44,16 @@ const Footer = () => {
           <div className="content-block">
             <div className="content-heading">
               <img src={marker} alt="place-marker icon" />
-              <p className="footer-address">480 Mockingbird Hill undefined </p>
+              <p className="text-description footer-address">
+                480 Mockingbird Hill undefined{" "}
+              </p>
             </div>
           </div>
 
           <div className="content-block">
             <div className="content-heading">
               <img className="phone-icon" src={phone} alt="phone icon" />
-              <p className="footer-contact">(239) 555-0108 </p>
+              <p className="text-description footer-contact">(239) 555-0108 </p>
             </div>
           </div>
 

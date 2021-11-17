@@ -10,7 +10,7 @@ const Features = () => {
     <section className="features component-container">
       <div className="text-content">
         <h1 className="section-heading">Features</h1>
-        <p>
+        <p className="text-description">
           Most calendars are designed for teams. Slate is designed for
           freelancers who want a simple way to plan their schedule.
         </p>
@@ -29,7 +29,7 @@ const Features = () => {
                 A single source of truth
               </h3>
             </div>
-            <p className="feature-block-text">
+            <p className="text-description feature-block-text">
               When you add work to your Slate calendar we automatically
               calculate useful insights
             </p>
@@ -42,7 +42,7 @@ const Features = () => {
                 Intuitive interface
               </h3>
             </div>
-            <p className="feature-block-text">
+            <p className="text-description feature-block-text">
               When you add work to your Slate calendar we automatically
               calculate useful insights
             </p>
@@ -55,7 +55,7 @@ const Features = () => {
                 Or with rules
               </h3>
             </div>
-            <p className="feature-block-text">
+            <p className="text-description feature-block-text">
               When you add work to your Slate calendar we automatically
               calculate useful insights
             </p>

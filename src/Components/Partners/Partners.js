@@ -11,7 +11,7 @@ const Partners = () => {
     <section className=" partners component-container">
       <div className="text-content">
         <h1 className="section-heading">Partners</h1>
-        <p>
+        <p className="text-description">
           We focus on ergonomics and meeting you where you work. It's only a
           keystroke away.
         </p>

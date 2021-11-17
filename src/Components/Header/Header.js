@@ -42,7 +42,7 @@ const Header = () => {
           Work at the speed
           <br /> of thought
         </h1>
-        <p>
+        <p className="text-description">
           Most calendars are designed for teams. Slate is designed for
           freelancers who want a simple way to plan their schedule.
         </p>

@@ -16,7 +16,7 @@ body {
   color: white;
   text-align: center;
 }
-body p {
+.text-description {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -121,7 +121,7 @@ body p {
     padding: 5px 15px;
     font-size: 12px;
   }
-  body p {
+  .text-description {
     font-size: 14px;
   }
   .section-heading {
@@ -140,7 +140,7 @@ body p {
     padding: 5px 15px;
     font-size: 12px;
   }
-  body p {
+  .text-description {
     font-size: 16px;
   }
   .section-heading {
@@ -152,22 +152,3 @@ body p {
     line-height: 20px;
   }
 }
-
-/* Medium devices (landscape tablets, 768px and up) */
-/* @media only screen and (min-width: 768px) {...} */
-
-/* Large devices (laptops/desktops, 992px and up) */
-/* @media only screen and (min-width: 992px) {...} */
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-/* @media only screen and (max-width: 1200px) {
-  .section-heading {
-    font-size: 45px;
-    line-height: 50px;
-    padding: 30px;
-  }
-  .btn {
-    margin: 30px;
-    padding: 5px 15px;
-  }
-} */

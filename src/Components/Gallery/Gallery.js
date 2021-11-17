@@ -13,7 +13,7 @@ const Gallery = () => {
       <div className="text-content">
         <h1 className="section-heading">Gallery</h1>
 
-        <p>
+        <p className="text-description">
           We focus on ergonomics and meeting you where you work It's only a
           keystroke away.
         </p>
