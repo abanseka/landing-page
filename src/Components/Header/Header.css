@@ -45,12 +45,11 @@
 }
 
 .dark-fade-gradient {
-  height: 50vh;
-  margin-top: -50vh;
+  height: 100%;
   z-index: 2;
-  position: relative;
+  position: absolute;
   background-image: linear-gradient(#0000, black);
-  width: auto;
+  width: 100%;
 }
 
 .header .section-heading {
@@ -104,12 +103,16 @@
     justify-content: center;
   }
 
-  .header-banner,
-  .header-menu {
-    background-color: #4452fe;
+  .text-content.hide {
+    opacity: 0%;
   }
+
+  .btn-container.hide {
+    opacity: 0%;
+  }
+
   .header-menu li:hover {
-    background-color: #4992ce;
+    background-color: #4452fe;
     cursor: pointer;
   }
   .mobile-login-btn {
