@@ -8,6 +8,7 @@ import "./Header.css";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isElementVisble, setisElementVisible] = useState(true);
   // usestate and useEffects
 
   return (
@@ -28,6 +29,7 @@ const Header = () => {
         <div
           onClick={() => {
             setIsMenuOpen(!isMenuOpen);
+            setisElementVisible(!isElementVisble);
           }}
           className="hamburger-toggle-button"
         >
@@ -37,7 +39,7 @@ const Header = () => {
         </div>
       </nav>
 
-      <div className="text-content">
+      <div className={`text-content ${isElementVisble ? "" : "hide"}`}>
         <h1 className="page-title section-heading">
           Work at the speed
           <br /> of thought
@@ -47,13 +49,14 @@ const Header = () => {
           freelancers who want a simple way to plan their schedule.
         </p>
       </div>
-      <div>
+      <div className={`btn-container ${isElementVisble ? "" : "hide"}`}>
         <div className="header-btn">
           <button className="header-free-btn btn">Try For Free</button>
           <button className="btn">Learn More</button>
         </div>
       </div>
       <div className="screen">
+        <div className="dark-fade-gradient"></div>
         <div className="header-images">
           <div className="header-image-column-1">
             <img className="header-image" src={screenImage1} alt="Dasboard" />
@@ -64,7 +67,6 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <div className="dark-fade-gradient"></div>
     </section>
   );
 };
