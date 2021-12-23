@@ -40,11 +40,7 @@ const Header = () => {
         </div>
       </nav>
 
-      <div
-        className={`text-content ${classNames("isElementVisble", {
-          hide: !isElementVisble,
-        })}`}
-      >
+      <div className={`text-content ${classNames({ hide: !isElementVisble })}`}>
         <h1 className="page-title section-heading">
           Work at the speed
           <br /> of thought
@@ -55,9 +51,7 @@ const Header = () => {
         </p>
       </div>
       <div
-        className={`btn-container ${classNames("isElementVisble", {
-          hide: !isElementVisble,
-        })}`}
+        className={`btn-container ${classNames({ hide: !isElementVisble })}}`}
       >
         <div className="header-btn">
           <button className="header-free-btn btn">Try For Free</button>
