@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import classNames from "classnames";
 import logo from "../../images/Logo.png";
 import screenImage1 from "../../images/header/screenImage1.png";
 import screenImage2 from "../../images/header/screenImage2.png";
@@ -39,7 +40,11 @@ const Header = () => {
         </div>
       </nav>
 
-      <div className={`text-content ${isElementVisble ? "" : "hide"}`}>
+      <div
+        className={`text-content ${classNames("isElementVisble", {
+          hide: !isElementVisble,
+        })}`}
+      >
         <h1 className="page-title section-heading">
           Work at the speed
           <br /> of thought
@@ -49,7 +54,11 @@ const Header = () => {
           freelancers who want a simple way to plan their schedule.
         </p>
       </div>
-      <div className={`btn-container ${isElementVisble ? "" : "hide"}`}>
+      <div
+        className={`btn-container ${classNames("isElementVisble", {
+          hide: !isElementVisble,
+        })}`}
+      >
         <div className="header-btn">
           <button className="header-free-btn btn">Try For Free</button>
           <button className="btn">Learn More</button>
