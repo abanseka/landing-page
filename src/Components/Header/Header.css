@@ -126,6 +126,6 @@
 
 @media only screen and (max-width: 600px) {
   .dark-fade-gradient {
-    margin-top: -50vh;
+    height: 30vh;
   }
 }
