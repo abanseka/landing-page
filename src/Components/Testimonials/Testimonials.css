@@ -4,7 +4,7 @@
   grid-template-columns: auto auto;
   grid-template-rows: auto auto;
   row-gap: 20px;
-  max-width: 50%;
+  max-width: 60%;
 }
 .testimonial-card-holder {
   max-width: 60%;
@@ -35,11 +35,23 @@
   padding: 10px;
 }
 
-@media (max-width: 1100px) {
+@media only screen and (max-width: 992px) {
   .testimonial-cards {
     display: inline-block;
+    max-width: 80%;
   }
-  .testimonial .card {
-    margin: 10px 0px;
+}
+
+@media only screen and (max-width: 768px) {
+  .testimonial-cards {
+    display: inline-block;
+    max-width: 80%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .testimonial-cards {
+    display: inline-block;
+    max-width: 100%;
   }
 }

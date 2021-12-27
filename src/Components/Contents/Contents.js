@@ -7,7 +7,7 @@ const Contents = () => {
     <section className=" contents component-container">
       <div className="text-content">
         <h1 className="section-heading">Contents</h1>
-        <p>
+        <p className="text-description">
           We focus on ergonomics and meeting you where you work. It's only a
           keystroke away.
         </p>
@@ -16,7 +16,7 @@ const Contents = () => {
         <div className="work-card card">
           <div className="card-heading">
             <h3 className="contents-heading section-sub-heading">Work</h3>
-            <p className="contents-card-text">
+            <p className=" text-description contents-card-text">
               Ever wondered if you're too reliant on a client for work? Slate
               helps you identify .
             </p>
@@ -34,7 +34,7 @@ const Contents = () => {
             <h3 className="contents-heading section-sub-heading">
               Design with real data
             </h3>
-            <p className="contents-card-text">
+            <p className="text-description contents-card-text">
               Ever wondered if you're too reliant on a client for work? Slate
               helps you identify .
             </p>

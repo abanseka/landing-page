@@ -11,3 +11,28 @@
   border-radius: 10px;
   margin: 10px;
 }
+@media only screen and (max-width: 992px) {
+  .gallery-cards-1 {
+    max-width: 100%;
+  }
+  .gallery-cards-1 > * {
+    max-width: 50%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .gallery-cards-1 {
+    max-width: 100%;
+  }
+  .gallery-cards-1 > * {
+    max-width: 40%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .gallery-cards-1 {
+    max-width: 100%;
+  }
+  .gallery-cards-1 > * {
+    max-width: 30%;
+  }
+}
