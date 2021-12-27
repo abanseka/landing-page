@@ -51,7 +51,7 @@ const Header = () => {
         </p>
       </div>
       <div
-        className={`btn-container ${classNames({ hide: !isElementVisble })}}`}
+        className={`btn-container ${classNames({ hide: !isElementVisble })}`}
       >
         <div className="header-btn">
           <button className="header-free-btn btn">Try For Free</button>
