@@ -93,7 +93,7 @@ const Footer = () => {
             <div className="content-heading">
               <img src={marker} alt="place-marker icon" />
               <p className="text-description footer-address">
-                480 Mockingbird Hill undefined{" "}
+                480 Mockingbird Hill
               </p>
             </div>
           </div>
