@@ -7,7 +7,7 @@ import "./Features.css";
 
 const Features = () => {
   return (
-    <section className="features component-container">
+    <section className="features component-container" id="features">
       <div className="text-content">
         <h1 className="section-heading">Features</h1>
         <p className="text-description">

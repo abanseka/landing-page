@@ -8,7 +8,7 @@ import "./Partners.css";
 
 const Partners = () => {
   return (
-    <section className=" partners component-container">
+    <section className=" partners component-container" id="partners">
       <div className="text-content">
         <h1 className="section-heading">Partners</h1>
         <p className="text-description">
