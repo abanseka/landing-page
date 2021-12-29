@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import classNames from "classnames";
-import * as scroll from "react-scroll";
+import { Link } from "react-scroll";
 import logo from "../../images/Logo.png";
 import screenImage1 from "../../images/header/screenImage1.png";
 import screenImage2 from "../../images/header/screenImage2.png";
@@ -22,24 +22,24 @@ const Header = () => {
 
         <ul className={`header-menu ${isMenuOpen ? "open" : ""}`}>
           <li>
-            <scroll.Link to="features" smooth={true}>
+            <Link to="features" smooth={true}>
               Home
-            </scroll.Link>
+            </Link>
           </li>
           <li>
-            <scroll.Link to="gallery" smooth={true}>
+            <Link to="gallery" smooth={true}>
               Products
-            </scroll.Link>
+            </Link>
           </li>
           <li>
-            <scroll.Link to="partners" smooth={true}>
+            <Link to="partners" smooth={true}>
               About
-            </scroll.Link>
+            </Link>
           </li>
           <li>
-            <scroll.Link to="footer" smooth={true}>
+            <Link to="footer" smooth={true}>
               Contact
-            </scroll.Link>
+            </Link>
           </li>
           <button className="mobile-login-btn btn">Login</button>
         </ul>
