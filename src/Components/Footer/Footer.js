@@ -1,4 +1,4 @@
-import * as scroll from "react-scroll";
+import { Link } from "react-scroll";
 import marker from "../../images/marker.png";
 import phone from "../../images/phone.png";
 import "./Footer.css";
@@ -17,24 +17,24 @@ const Footer = () => {
               Fingertipe
             </h3>
             <p className="text-description footer-link-text">
-              <scroll.Link to="features" smooth={true}>
+              <Link to="features" smooth={true}>
                 Home
-              </scroll.Link>
+              </Link>
             </p>
             <p className="text-description footer-link-text">
-              <scroll.Link to="gallery" smooth={true}>
+              <Link to="gallery" smooth={true}>
                 Products
-              </scroll.Link>
+              </Link>
             </p>
             <p className="text-description footer-link-text">
-              <scroll.Link to="partners" smooth={true}>
+              <Link to="partners" smooth={true}>
                 About
-              </scroll.Link>
+              </Link>
             </p>
             <p className="text-description footer-link-text">
-              <scroll.Link to="header" smooth={true}>
+              <Link to="header" smooth={true}>
                 Contact
-              </scroll.Link>
+              </Link>
             </p>
           </div>
           <div className="footer-menu">
@@ -42,48 +42,48 @@ const Footer = () => {
               Resources
             </h3>
             <p className="text-description footer-link-text">
-              <scroll.Link to="features" smooth={true}>
+              <Link to="features" smooth={true}>
                 Home
-              </scroll.Link>
+              </Link>
             </p>
             <p className="text-description footer-link-text">
-              <scroll.Link to="gallery" smooth={true}>
+              <Link to="gallery" smooth={true}>
                 Products
-              </scroll.Link>
+              </Link>
             </p>
             <p className="text-description footer-link-text">
-              <scroll.Link to="partners" smooth={true}>
+              <Link to="partners" smooth={true}>
                 About
-              </scroll.Link>
+              </Link>
             </p>
             <p className="text-description footer-link-text">
-              <scroll.Link to="header" smooth={true}>
+              <Link to="header" smooth={true}>
                 Contact
-              </scroll.Link>
+              </Link>
             </p>
           </div>
 
           <div className="footer-menu">
             <h3 className="footer-link-heading section-sub-heading">About</h3>
             <p className="text-description footer-link-text">
-              <scroll.Link to="features" smooth={true}>
+              <Link to="features" smooth={true}>
                 Home
-              </scroll.Link>
+              </Link>
             </p>
             <p className="text-description footer-link-text">
-              <scroll.Link to="gallery" smooth={true}>
+              <Link to="gallery" smooth={true}>
                 Products
-              </scroll.Link>
+              </Link>
             </p>
             <p className="text-description footer-link-text">
-              <scroll.Link to="partners" smooth={true}>
+              <Link to="partners" smooth={true}>
                 About
-              </scroll.Link>
+              </Link>
             </p>
             <p className="text-description footer-link-text">
-              <scroll.Link to="header" smooth={true}>
+              <Link to="header" smooth={true}>
                 Contact
-              </scroll.Link>
+              </Link>
             </p>
           </div>
         </div>
