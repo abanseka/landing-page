@@ -8,6 +8,25 @@ import Tw from "../../images/Tw.png";
 import In from "../../images/In.png";
 
 const Footer = () => {
+  const links = [
+    {
+      label: "Home",
+      to: "features",
+    },
+    {
+      label: "Products",
+      to: "gallery",
+    },
+    {
+      label: "About",
+      to: "partners",
+    },
+    {
+      label: "Contact",
+      to: "header",
+    },
+  ];
+
   return (
     <section className="footer component-container" id="footer">
       <div className="footer-content">
@@ -16,75 +35,37 @@ const Footer = () => {
             <h3 className="footer-link-heading section-sub-heading">
               Fingertipe
             </h3>
-            <p className="text-description footer-link-text">
-              <Link to="features" smooth={true}>
-                Home
-              </Link>
-            </p>
-            <p className="text-description footer-link-text">
-              <Link to="gallery" smooth={true}>
-                Products
-              </Link>
-            </p>
-            <p className="text-description footer-link-text">
-              <Link to="partners" smooth={true}>
-                About
-              </Link>
-            </p>
-            <p className="text-description footer-link-text">
-              <Link to="header" smooth={true}>
-                Contact
-              </Link>
-            </p>
+            {links.map((link, index) => (
+              <p className="text-description footer-link-text" key={index}>
+                <Link to={link.to} smooth={true}>
+                  {link.label}
+                </Link>
+              </p>
+            ))}
           </div>
+
           <div className="footer-menu">
             <h3 className="footer-link-heading section-sub-heading">
               Resources
             </h3>
-            <p className="text-description footer-link-text">
-              <Link to="features" smooth={true}>
-                Home
-              </Link>
-            </p>
-            <p className="text-description footer-link-text">
-              <Link to="gallery" smooth={true}>
-                Products
-              </Link>
-            </p>
-            <p className="text-description footer-link-text">
-              <Link to="partners" smooth={true}>
-                About
-              </Link>
-            </p>
-            <p className="text-description footer-link-text">
-              <Link to="header" smooth={true}>
-                Contact
-              </Link>
-            </p>
+            {links.map((link, index) => (
+              <p className="text-description footer-link-text" key={index}>
+                <Link to={link.to} smooth={true}>
+                  {link.label}
+                </Link>
+              </p>
+            ))}
           </div>
 
           <div className="footer-menu">
             <h3 className="footer-link-heading section-sub-heading">About</h3>
-            <p className="text-description footer-link-text">
-              <Link to="features" smooth={true}>
-                Home
-              </Link>
-            </p>
-            <p className="text-description footer-link-text">
-              <Link to="gallery" smooth={true}>
-                Products
-              </Link>
-            </p>
-            <p className="text-description footer-link-text">
-              <Link to="partners" smooth={true}>
-                About
-              </Link>
-            </p>
-            <p className="text-description footer-link-text">
-              <Link to="header" smooth={true}>
-                Contact
-              </Link>
-            </p>
+            {links.map((link, index) => (
+              <p className="text-description footer-link-text" key={index}>
+                <Link to={link.to} smooth={true}>
+                  {link.label}
+                </Link>
+              </p>
+            ))}
           </div>
         </div>
 
