@@ -42,7 +42,9 @@
   padding: 10px;
   margin: 0px;
 }
-
+.footer-link-text:hover {
+  cursor: pointer;
+}
 @media (max-width: 768px) {
   .footer-content {
     max-width: 80%;

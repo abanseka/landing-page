@@ -9,7 +9,7 @@ import "./Gallery.css";
 
 const Gallery = () => {
   return (
-    <section className="gallery component-container">
+    <section className="gallery component-container" id="gallery">
       <div className="text-content">
         <h1 className="section-heading">Gallery</h1>
 

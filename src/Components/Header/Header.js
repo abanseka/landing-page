@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import classNames from "classnames";
+import { Link } from "react-scroll";
 import logo from "../../images/Logo.png";
 import screenImage1 from "../../images/header/screenImage1.png";
 import screenImage2 from "../../images/header/screenImage2.png";
@@ -13,17 +14,33 @@ const Header = () => {
   // usestate and useEffects
 
   return (
-    <section className="header component-container">
+    <section className="header component-container" id="header">
       <nav className="header-banner">
         <div id="logo">
           <img src={logo} alt="text:figma land" />
         </div>
 
         <ul className={`header-menu ${isMenuOpen ? "open" : ""}`}>
-          <li>Home</li>
-          <li>Product</li>
-          <li>About</li>
-          <li>Contact</li>
+          <li>
+            <Link to="features" smooth={true}>
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link to="gallery" smooth={true}>
+              Products
+            </Link>
+          </li>
+          <li>
+            <Link to="partners" smooth={true}>
+              About
+            </Link>
+          </li>
+          <li>
+            <Link to="footer" smooth={true}>
+              Contact
+            </Link>
+          </li>
           <button className="mobile-login-btn btn">Login</button>
         </ul>
         <button className="login-btn btn">Login</button>
