@@ -11,8 +11,24 @@ import "./Header.css";
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isElementVisble, setisElementVisible] = useState(true);
-  // usestate and useEffects
-
+  const links = [
+    {
+      label: "Home",
+      to: "features",
+    },
+    {
+      label: "Products",
+      to: "gallery",
+    },
+    {
+      label: "About",
+      to: "partners",
+    },
+    {
+      label: "Contact",
+      to: "footer",
+    },
+  ];
   return (
     <section className="header component-container" id="header">
       <nav className="header-banner">
@@ -21,26 +37,14 @@ const Header = () => {
         </div>
 
         <ul className={`header-menu ${isMenuOpen ? "open" : ""}`}>
-          <li>
-            <Link to="features" smooth={true}>
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link to="gallery" smooth={true}>
-              Products
-            </Link>
-          </li>
-          <li>
-            <Link to="partners" smooth={true}>
-              About
-            </Link>
-          </li>
-          <li>
-            <Link to="footer" smooth={true}>
-              Contact
-            </Link>
-          </li>
+          {links.map((link, index) => (
+            <li key={index}>
+              <Link to={link.to} smooth={true}>
+                {link.label}
+              </Link>
+            </li>
+          ))}
+
           <button className="mobile-login-btn btn">Login</button>
         </ul>
         <button className="login-btn btn">Login</button>
