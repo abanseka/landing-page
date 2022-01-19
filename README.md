@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Prototype landing page
+---
 
+My first fully implemented react project 🔖
 ![landing-page-hero](/src/images/hero.png)
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
